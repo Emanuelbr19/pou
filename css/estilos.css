@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+}
+body{
+    background: url(nube/nubes.png);
+}
+.pou{
+    width: 300px;
+    height: 300px;
+    background: #c69c6d;
+    border-radius: 50% 50% 10% 10%/ 50% 50% 20% 20% ;
+    position: absolute;
+    top: 200px;
+    animation: puomovimiento 2s linear infinite;
+}
+@keyframes puomovimiento {
+    from{
+        margin-left: 400px;
+    }
+    to{
+        margin-left: 800px;
+    }
+}
+ 
+.ojos{
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+.ojoizquierdo{
+    width: 80px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    border: black solid 5px;
+    position: relative;
+    top: 35px;
+    left: 60px;
+}
+.pupila{
+    width: 40px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    
+}
+.ojoderecho{
+    width: 80px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    border: black solid 5px;
+    position: relative;
+    top: -75px;
+    left: 160px;
+}
+.boca{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-radius: 1% 1% 50% 50%;
+    left: 80px;
+    position: relative;
+}
